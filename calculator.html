@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+  <link href="./pages/style.css" rel="stylesheet"/>
+  <title>FitPhysique</title>
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <nav>
+    <div class="nav__bar">
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="index.html"> <img src="./images/logo.png" alt="logo"/></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">Основной</a></li>
+        <li><a href="aboutus.html">О нас</a></li>
+        <li><a href="trainers.html">Тренеры</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+        <li><a href="classboard.html">Доска занятий</a></li>
+        <li><a href="calculator.html">ИМТ</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="section__container bmi__container">
+    <div class="wrapper__container">
+      <h2 class="bmi__header">КАЛЬКУЛЯТОР ИМТ</h2>
+      <p>Рост в СМ:
+        <input class="bmi__input" type="text" id="height"><br><span id="height_error"></span>
+      </p>
+
+      <p>Вес в КГ:
+        <input class="bmi__input" type="text" id="weight"><br><span id="weight_error"></span>
+      </p>
+
+      <button class="btn" id="btn-bmi">Рассчитать</button>
+      <div class="result" id="result">
+        <p id="output"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container">
+    <h2 class="bmi__header">ТАБЛИЦА ИМТ</h2>
+    <table class="table">
+      <thead>
+        <tr><th>Индекс массы тела</th><th>Соответствие между массой человека и его ростом</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>16 и менее</td><td>Выраженный дефицит массы тела</td></tr>
+        <tr><td>16-18,5</td><td>Недостаточная (дефицит) масса тела</td></tr>
+        <tr><td>18,5-25</td><td>Норма</td></tr>
+        <tr><td>25-30</td><td>Избыточная масса тела (предожирение)</td></tr>
+        <tr><td>30-35</td><td>Ожирение первой степени</td></tr>
+        <tr><td>35-40</td><td>Ожирение второй степени</td></tr>
+        <tr><td>40 и более</td><td>Ожирение третьей степени (морбидное)</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="section__container macro__container">
+    <div class="wrapper__container">
+      <h2 class="bmi__header">КАЛЬКУЛЯТОР КАЛОРИЙ</h2>
+        <form id="calorie-form">
+          <label for="gender-2">Пол:</label>
+          <select id="gender-2" required>
+            <option value="male">Мужчина</option>
+            <option value="female">Женщина</option>
+          </select>
+
+          <label class ="label__container" for="age-2">Возраст (лет):</label>
+          <input class="calorii__table" type="number" id="age-2" placeholder="Введите возраст" required>
+
+          <label class ="label__container" for="weight-2">Вес (кг):</label>
+          <input class="calorii__table" type="number" id="weight-2" placeholder="Введите вес" required>
+
+          <label class ="label__container" for="height-2">Рост (см):</label>
+          <input class="calorii__table" type="number" id="height-2" placeholder="Введите рост" required>
+
+          <label class ="label__container" for="activity-2">Уровень активности:</label>
+          <select id="activity-2" required>
+            <option value="1.2">Сидячий образ жизни (мало или совсем не занимаются спортом)</option>
+            <option value="1.375">Малоактивный (легкие физические упражнения/спорт 1-3 дня в неделю)</option>
+            <option value="1.55">Умеренно активный (умеренные физические нагрузки/спорт 3-5 дней в неделю)</option>
+            <option value="1.725">Очень активный (тяжелые физические упражнения/спорт 6-7 дней в неделю)</option>
+            <option value="1.9">Очень активный (очень тяжелые физические нагрузки, физическая работа)</option>
+          </select>
+        </form>
+        <button class="btn" type="button" id="btn-cal">Рассчитать</button>
+        <div class="result" id="result2"></div>
+    </div>
+  </section>
+
+  <footer class="footer2" id="contact">
+    <div class="section__container footer2__container">
+      <div class="footer2__logo">
+        <a href="#"><img src="./images/logo.png" alt="logo" /></a>
+      </div>
+      <ul class="footer2__links">
+        <li>
+          <a href="#">
+            <span><i class="ri-map-pin-2-fill"></i></span>
+              ул. 29 октября<br/>Приднестровье, г. Тирасполь
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span><i class="ri-phone-fill"></i></span>
+              +373 775-69-295
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span><i class="ri-mail-fill"></i></span>
+              erdik2005@mail.ru
+          </a>
+        </li>
+        <li>
+          <div class="footer2__bar">
+            FitPhysique © 2024. All rights reserved.
+          </div>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

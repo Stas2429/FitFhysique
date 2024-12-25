@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Регистрация</title>
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./pages/styles.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="wrapper">
+    <form id="register-form">
+      <h2>Создать Аккаунт</h2>
+      <div class="input-box">
+        <input type="text" placeholder="Имя пользователя" required>
+        <i class='bx bxs-user'></i>
+      </div>
+
+      <div class="input-box">
+        <input type="email" placeholder="Email" required>
+        <i class='bx bxs-envelope'></i>
+      </div>
+
+      <div class="input-box">
+        <input type="password" id="password" placeholder="Пароль" required>
+        <i class='bx bxs-show' id="togglePassword" style="position: absolute; right: 20px; top: 30%; cursor: pointer;"></i>
+      </div>
+
+      <div class="input-box">
+        <input type="password" id="confirm-password" placeholder="Подтвердите пароль" required>
+        <i class='bx bxs-show' id="toggleConfirmPassword" style="position: absolute; right: 20px; top: 30%; cursor: pointer;"></i>
+      </div>
+      
+      <div id="error-message" style="color: rgb(0, 0, 0);  font-size: 14px ;"; ></div>
+
+      <button type="submit" class="btn">Зарегистрироваться</button>
+      <div class="register-link">
+        <p>Уже создали аккаунт? <a href="login.html" id="login-link">Войти</a></p>
+      </div>
+    </form>
+  </div>
+  <script src="second.js"></script>
+</body>
+</html>

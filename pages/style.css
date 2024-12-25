@@ -1,0 +1,104 @@
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/header__container.css);
+@import url(../blocks/header/header__content.css);
+
+@import url(../blocks/body/body.css);
+
+@import url(../blocks/logo/logo__banner.css);
+
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/nav__bar.css);
+@import url(../blocks/nav/nav__header.css);
+@import url(../blocks/nav/nav__links.css);
+@import url(../blocks/nav/nav__logo.css);
+@import url(../blocks/nav/nav__menu__btn.css);
+
+@import url(../blocks/blog/blog.css);
+@import url(../blocks/blog/blog__btn.css);
+@import url(../blocks/blog/blog__card.css);
+@import url(../blocks/blog/blog__grid.css);
+@import url(../blocks/blog/blog__container.css);
+
+@import url(../blocks/membership/membership.css);
+@import url(../blocks/membership/membership__card.css);
+@import url(../blocks/membership/membership__container.css);
+@import url(../blocks/membership/membership__grid.css);
+
+@import url(../blocks/section/section__container.css);
+@import url(../blocks/section/section__description.css);
+@import url(../blocks/section/section__header.css);
+
+@import url(../blocks/client/client__card.css);
+
+@import url(../blocks/swiper/swiper.css);
+
+@import url(../blocks/about/about__card.css);
+@import url(../blocks/about/about__grid.css);
+@import url(../blocks/about/about__header.css);
+
+@import url(../blocks/session/session.css);
+@import url(../blocks/session/session__card.css);
+
+@import url(../blocks/modal/modal.css);
+@import url(../blocks/modal/modal__background.css);
+@import url(../blocks/modal/modal__close.css);
+@import url(../blocks/modal/modal__content.css);
+
+@import url(../blocks/achievements/achievements__card.css);
+
+@import url(../blocks/trainer/trainer__card.css);
+@import url(../blocks/trainer/trainer__grid.css);
+@import url(../blocks/trainer/trainer__socials.css);
+
+@import url(../blocks/map/map.css);
+@import url(../blocks/map/map__container.css);
+
+@import url(../blocks/schedule/schedule__button.css);
+@import url(../blocks/schedule/schedule__daytime.css);
+@import url(../blocks/schedule/schedule__table.css);
+
+@import url(../blocks/bmi/bmi__container.css);
+@import url(../blocks/bmi/bmi__header.css);
+@import url(../blocks/bmi/bmi__input.css);
+
+@import url(../blocks/wrapper/wrapper__container.css);
+
+@import url(../blocks/btn/btn.css);
+@import url(../blocks/btn/btn__primary.css);
+@import url(../blocks/btn/btn__secondary.css);
+
+@import url(../blocks/result/result.css);
+
+@import url(../blocks/table/table.css);
+
+@import url(../blocks/macro/macro__container.css);
+
+@import url(../blocks/label/label__container.css);
+
+@import url(../blocks/calorii/calorii_table.css);
+
+@import url(../blocks/select/select.css);
+
+@import url(../blocks/a/a.css);
+
+@import url(../blocks/gallery/gallery__grid.css);
+
+@import url(../blocks/img/img.css);
+
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/footer__bar.css);
+@import url(../blocks/footer/footer__col.css);
+@import url(../blocks/footer/footer__container.css);
+@import url(../blocks/footer/footer__links.css);
+@import url(../blocks/footer/footer__logo.css);
+@import url(../blocks/footer/footer__socials.css);
+
+@import url(../blocks/footer2/footer2.css);
+@import url(../blocks/footer2/footer2__bar.css);
+@import url(../blocks/footer2/footer2__container.css);
+@import url(../blocks/footer2/footer2__links.css);
+@import url(../blocks/footer2/footer2__logo.css);
