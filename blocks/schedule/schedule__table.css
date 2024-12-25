@@ -1,0 +1,9 @@
+.schedule__table {
+    font-family: var(--header-font);
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-top: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    overflow-x: auto;
+}

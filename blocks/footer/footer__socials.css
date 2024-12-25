@@ -1,0 +1,19 @@
+.footer__socials {
+    display: flex;
+    align-items: center;
+    padding-top: 1.1rem;
+    gap: 1rem;
+}
+  
+.footer__socials a {
+    padding: 5px 10px;
+    font-size: 1.25rem;
+    color: var(--primary-color);
+    background-color: var(--white);
+    border-radius: 100%;
+}
+  
+.footer__socials a:hover {
+    color: var(--white);
+    background-color: var(--primary-color);
+}

@@ -1,0 +1,31 @@
+.achievements__card {
+    max-width: 600px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.achievements__card img {
+    max-width: 100px;
+    margin-inline: auto;
+    margin-bottom: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 100%;
+}
+
+.achievements__card > div {
+    font-size: 2rem;
+    line-height: 2rem;
+    color: var(--text-light);
+    opacity: 0.5;
+}
+
+.achievements__card p {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+}
+
+.achievements__card h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+}

@@ -1,0 +1,15 @@
+.footer2 {
+    background-color: var(--text-dark);
+    display: flex;
+    flex-direction: column; /* Начальная ориентация: столбец для мобильных устройств */
+    align-items: center;
+    padding: 1rem;
+    text-align: center; /* Центрируем текст по умолчанию */
+}
+
+@media (min-width: 768px) {
+    .footer2 {
+      flex-direction: row; /* Горизонтальная ориентация на более широких экранах */
+      text-align: left; /* Текст выравнивается влево */
+    }
+} 

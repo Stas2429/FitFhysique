@@ -1,0 +1,41 @@
+#schedule__daytime {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+}
+  
+#schedule__daytime thead {
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-family: var(--header-font);
+    text-transform: uppercase;
+}
+  
+#schedule__daytime th,
+#schedule__daytime td {
+    border: 1px solid var(--extra-light);
+    padding: 0.75rem;
+    text-align: center;
+    font-size: 1rem;
+}
+  
+#schedule__daytime td {
+    color: var(--text-dark);
+}
+  
+#schedule__daytime td:empty {
+    background-color: var(--extra-light);
+}
+  
+#schedule__daytime td[data-activity] {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+@media (width > 1024px) {
+    #schedule__daytime th,
+    #schedule__daytime td {
+      font-size: 1.2rem;
+      padding: 1rem;
+    }
+  }

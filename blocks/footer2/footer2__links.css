@@ -1,0 +1,33 @@
+.footer2__links {
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Вертикальное расположение ссылок по умолчанию */
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+  
+.footer2__links li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.footer2__links a {
+    color: var(--text-light);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+  
+.footer2__links a:hover {
+    color: var(--white);
+}
+
+@media (min-width: 768px) {
+    .footer2__links {
+      flex-direction: row; /* Горизонтальная ориентация ссылок */
+      gap: 2rem;
+    }
+}

@@ -1,0 +1,11 @@
+.nav__menu__btn {
+    font-size: 1.5rem;
+    color: var(--white);
+    cursor: pointer;
+}
+
+@media (width > 768px){
+    .nav__menu__btn{
+    display: none;
+    }
+}

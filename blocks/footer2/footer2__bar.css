@@ -1,0 +1,13 @@
+.footer2__bar {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin-top: 1rem; /* Отступ сверху для мобильных устройств */
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+.footer2__bar {
+    margin-top: 0;
+    margin-left: auto; /* Сдвигаем бар в правый край */
+  }
+}

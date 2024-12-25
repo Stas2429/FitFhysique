@@ -1,0 +1,34 @@
+.table {
+    width: 100%;
+    max-width: var(--max-width);
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: var(--header-font);
+}
+  
+.table thead {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+  
+.table th, .table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--extra-light);
+}
+  
+.table th {
+    font-weight: bold;
+}
+  
+.table tbody tr:hover {
+    background-color: var(--extra-light);
+}
+
+.table tbody td {
+    color: var(--text-dark);
+}
+  
+.table tbody td:last-child {
+    font-style: var(--header-font);
+}

@@ -1,0 +1,7 @@
+.footer2__logo {
+    margin-bottom: 1rem; /* Отступ снизу для мобильных устройств */
+}
+  
+.footer2__logo img {
+    max-width: 120px;
+}

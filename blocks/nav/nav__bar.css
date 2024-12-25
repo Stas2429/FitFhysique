@@ -1,0 +1,14 @@
+.nav__bar {
+    width: 100%;
+    max-width: var(--max-width);
+    margin-inline: auto;
+}
+
+@media (width > 768px){
+    .nav__bar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+    }
+}

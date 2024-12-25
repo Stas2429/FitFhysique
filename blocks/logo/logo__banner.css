@@ -1,0 +1,17 @@
+.logo__banner {
+    padding-block: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+  
+.logo__banner img {
+    max-width: 150px;
+    margin-inline: auto;
+}
+
+@media (width > 768px){
+    .logo__banner {
+      grid-template-columns: repeat(4, 1fr);
+    }
+}

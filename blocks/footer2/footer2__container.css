@@ -1,0 +1,17 @@
+.footer2__container {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+    justify-content: space-between; /* Распределяем элементы равномерно */
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Ограничиваем ширину контейнера для больших экранов */
+    margin: 0 auto; /* Центрируем контейнер на больших экранах */
+}
+
+@media (min-width: 768px) {
+    .footer2__container {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left; /* Убираем выравнивание текста по центру */
+    }
+}

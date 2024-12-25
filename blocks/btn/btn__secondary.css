@@ -1,0 +1,9 @@
+.btn__secondary {
+    background-color: transparent;
+    border: 1px solid var(--white);
+}
+  
+.btn__secondary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
